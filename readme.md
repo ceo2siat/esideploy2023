@@ -32,9 +32,27 @@ Et dans la cli faite un reboot
 
 Apres avoir connecter sur le serveur distant avec SFTP Fillezilla
 
-IL va faloir faire un faire un BUILD MAVEN pour recuperer le fichire .jar
+IL va faloir faire un faire un BUILD MAVEN pour recuperer le fichire .jar dans le dossier target
 
 Tapez ip address show pour voir l'adresse ip ou  host à renseigner le dans filezilla sftp
+
+Test le .jar sur le power shell windows pour voir si le .jar s'execute correctement
+
+Maintenant il faudra installer les différentes outils pour que notre application tourne sur le serveur ubuntu distant.
+
+apache2
+mysql server
+module php pour apache2
+phpmyadmin
+
+apt install apache2
+sudo apt-get install php libapache2-mod-php php-mysql
+sudo apt-get install mysql-server
+sudo apt-get install phpmyadmin
+
+
+
+
 
 
 
