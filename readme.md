@@ -29,6 +29,11 @@ Dans congig --- réseau ---- adapter ----- Action par pont ---- apres choisie le
 
 Et dans la cli faite un reboot
 
+
+Apres avoir connecter sur le serveur distant avec SFTP Fillezilla
+
+IL va faloir faire un faire un BUILD MAVEN pour recuperer le fichire .jar
+
 Tapez ip address show pour voir l'adresse ip ou  host
 
 
