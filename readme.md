@@ -10,7 +10,7 @@ valide et mettre
 mount -o remount,rw /
 passwd esic
 
-nouveau mdp : azerty123 (Desactiver le clavier numérique)
+nouveau mdp : azerty123 par exemple (Desactiver le clavier numérique)
 
 Et fini par Reboot
 """"""""""""""""""""""""""""""""""
@@ -18,7 +18,7 @@ login : esic
 mdp : azerty123
 
 
-Pour tranferer les fichiers sur notre serveur ubuntu
+Pour tranferer les fichiers sur notre serveur ubuntu distant, qui nous servira de serveur de test
 
 On installe le ssh
 sudo apt install ssh
@@ -51,9 +51,4 @@ sudo apt-get install mysql-server
 sudo apt-get install phpmyadmin
 
 
-
-
-
-
-
-
+Installer le openJDK sur le serveur ubuntu distant
