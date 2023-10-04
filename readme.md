@@ -57,7 +57,11 @@ Creer un utilisateur MYSQL pour acceder à votre phpmyadmin AVEC GRANT ALL PRIVI
 Il faut maintenant pouvoir executé le projet java Esi2DeployProj
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 DEPLOIEMENT MANUEL DU PROJET Esi2DeployProj
-
-
-
 Installer le openJDK sur le serveur ubuntu distant
+
+sudo apt-get install openjdk-8-jdk
+
+Envoyer le jar depuis filezilla sur le server distant et lancer le jar en ligne de commande sur Ubuntu
+N'oubliez pas de créer la base de donnée
+
+java -jar le_chemin_du_fichier
