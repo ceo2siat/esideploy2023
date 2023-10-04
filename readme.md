@@ -53,7 +53,7 @@ sudo apt-get install mysql-server
 sudo apt-get install phpmyadmin
 
 
-Creer un utilisateur MYSQL pour acceder à votre phpmyadmin
+Creer un utilisateur MYSQL pour acceder à votre phpmyadmin AVEC GRANT ALL PRIVILEGE ON *.* TO USER CREER à la fin
 Il faut maintenant pouvoir executé le projet java Esi2DeployProj
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 DEPLOIEMENT MANUEL DU PROJET Esi2DeployProj
