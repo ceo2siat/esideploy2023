@@ -29,7 +29,7 @@ Dans config --- réseau ---- adapter ----- Action par pont ---- apres choisie le
 
 Et dans la cli faite un reboot
 
-
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 Apres avoir connecter sur le serveur distant avec SFTP Fillezilla
 
 IL va faloir faire un faire un BUILD MAVEN pour recuperer le fichire .jar dans le dossier target
@@ -39,16 +39,25 @@ Tapez ip address show pour voir l'adresse ip ou  host à renseigner le dans file
 Test le .jar sur le power shell windows pour voir si le .jar s'execute correctement
 
 Maintenant il faudra installer les différentes outils pour que notre application tourne sur le serveur ubuntu distant.
-
+Installer sans préciser les versions
+Mode SU
 apache2
 mysql server
 module php pour apache2
 phpmyadmin
+Java
 
 apt install apache2
 sudo apt-get install php libapache2-mod-php php-mysql
 sudo apt-get install mysql-server
 sudo apt-get install phpmyadmin
+
+
+Creer un utilisateur MYSQL pour acceder à votre phpmyadmin
+Il faut maintenant pouvoir executé le projet java Esi2DeployProj
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+DEPLOIEMENT MANUEL DU PROJET Esi2DeployProj
+
 
 
 Installer le openJDK sur le serveur ubuntu distant
